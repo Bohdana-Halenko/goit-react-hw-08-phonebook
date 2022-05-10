@@ -32,9 +32,9 @@ const App = () => {
 
   return (
     !isLoading && (
-      <div className={s.wrapper}>
+      <div>
         <Header className={s.header} />
-        <main className={(s.main, s.phonebookSection)}>
+        <main className={(s.main)}>
           <Suspense fallback={<h1>Loading...</h1>}>
             <Routes>
               <Route path="/" element={<HomePage />} />;

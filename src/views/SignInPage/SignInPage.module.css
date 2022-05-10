@@ -1,3 +1,7 @@
+.phonebookForm{
+    margin-top: 80px;
+}
+
 .inputBox {
     width: 300px;
     display: flex;

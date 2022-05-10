@@ -11,3 +11,6 @@
 .title{
     text-align: center;
 }
+.main {
+    grid-area: main;
+}
