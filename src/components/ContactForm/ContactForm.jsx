@@ -1,11 +1,10 @@
+import s from './ContactForm.module.css';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContacts, getContacts } from '../../redux/phonebook/selectors';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import s from './ContactForm.module.css';
 
-
-export default function ContactForm() {
+export default function Phonebook() {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const contacts = useSelector(getContacts);

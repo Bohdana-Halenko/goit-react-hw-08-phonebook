@@ -2,6 +2,7 @@ import { createReducer, combineReducers } from '@reduxjs/toolkit';
 import { filterChangeAction } from './actions';
 import { fetchContacts, deleteContacts, addContacts } from './selectors';
 
+
 const filter = createReducer('', {
   [filterChangeAction]: (_, { payload }) => payload,
 });

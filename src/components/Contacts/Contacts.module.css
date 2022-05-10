@@ -1,6 +1,10 @@
 .contactsList {
   list-style: none;
   padding-left: 0;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title{
@@ -15,6 +19,8 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6),
     -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
+  width: 450px;
+  
 }
 
 .contactsItem:not(:last-child) {
